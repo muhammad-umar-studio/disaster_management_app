@@ -1,0 +1,13 @@
+// Central API key store template. Copy this to api_keys.dart and fill in your keys.
+class ApiKeys {
+  static const String googleMaps  = 'YOUR_GOOGLE_MAPS_API_KEY';
+  static const String gemini      = 'YOUR_GEMINI_API_KEY';
+  static const String openWeather = 'YOUR_OPENWEATHER_API_KEY';
+
+  // Supabase
+  static const String supabaseUrl     = 'YOUR_SUPABASE_URL';
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+
+  // Google OAuth (Web Client ID for Supabase)
+  static const String googleWebClientId = 'YOUR_GOOGLE_WEB_CLIENT_ID';
+}
